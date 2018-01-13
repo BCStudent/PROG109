@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Module Webpage</title>
+</head>
+
+<body>
+	<h1> Week #1</h1>
+	<h2>Carrot Fries</h2>
+	<h3> Created by Paul Walters</h3>
+	<h4> January 12, 2018</h4>
+<p>
+<hr>	
+<p></p>
+<img src="images/Carrot_Fries.jpg" alt="Carrot Fries" width="200 height="200" />
+<p><a href="http://www.oprah.com/omagazine/Carrot-Fries-Recipe-Oven-Baked-Fries-Recipes/">Fries made from Carrots in only 20 minutes?</a></p>
+<p></p>
+<strong>Ingredients</strong>
+<ul>
+	<li>2 pounds large carrots, trimmed and peeled</li>
+	<li>6 Tbsp. white rice flour</li> 
+	<li>6 Tbsp. canola oil</li>
+	<li>2 tsp. garam masala (an Indian spice blend that can include cinnamon, pepper, cumin and cloves)</li>
+	<li>2 tsp. kosher salt</li>
+</ul>
+<strong>Instructions</strong>
+<ol>
+	<li>Preheat oven to 450<sup>0</sup> and place the oven racks on the 2<sup>nd</sup> and 3<sup>rd</sup> positions. Cut carrots into French-fry-size sticks, 
+		about 3" long. In a large bowl, toss carrots with rice flour to coat and shake off excess flour.</li> 
+	<img src="images/Step_1.JPG" width="300 height="300" />
+	<li>Spread the carrots without crowding, in a single layer on two rimmed baking sheet lined with parchment paper. Bake 7 minutes. 
+	Meanwhile, combine oil, garam masala, and salt in a large bowl. Gently remove carrots from the baking sheets and toss with oil mixture. 
+	Return carrots to baking sheet and bake approx. 10-15 minutes or until crisp-tender and lightly browned along the edges.</li>
+	<img src="images/Step_2.JPG" width="300 height="300" />                                                                                                                                                                 
+</ol>
+	<p></p>
+<strong>More Recipes</strong>
+<ul>
+	<li><a href="https://indianhealthyrecipes.com/carrot-fry-carrot-curry-recipe/">Curry Carrot Fries</a></li>
+	<li><a href="https://www.2teaspoons.com/healthy-baked-carrot-fries/#recipe_target/">Healthy Fries</a></li>
+
+<p><p>
+<a href="/PROG109/MOD01/index.html">Go Back</a> | <a href="/PROG109/index.html">Go Home</a>
+	
+</body>
+
+</html>
