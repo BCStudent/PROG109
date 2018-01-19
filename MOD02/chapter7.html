@@ -11,59 +11,44 @@
  
 <fieldset>
  <legend>User Information</legend>
-<label for="name">
-Enter your name:
+<p>Enter your name:
   <input type="text" name="name" maxlength="30" />
- </label>
- </p>
- 
- 
-<label for="password">
- Enter your password:
+</p>
+
+<p>Enter your password:
   <input type="password" name="password" maxlength="30" />
-</label>
- </p>
+</p>
  
-<label for="hear about">
- Tell us about you:
-</label>
+<p>Tell us about you:
   <textarea name="comment" cols="20" rows="6"></textarea>
    </fieldset>
- <br />
+<br />
  
-<label for="New visitor?">
- Are you new to my site:
-</label>
+<p>Are you new to my site:
   <input type="radio" name="new" value="Yes" />Yes
   <input type="radio" name="new" value="No" />No
 </p>
-
-<label for="Subscribe to blog?">
- Do you want to subscribe to my blog?
-</label>
+ 
+<p>Do you want to subscribe to my blog?
   <input type="checkbox" name="subscribe" checked="checked" />
 </p>
  
-<label for="student year">
- What is your student's year?
+<p>What is your student's year?
   <select name="studentyear">    
-   <option value="default">Select one option...</>
+   <option value="default">Select one option...&lt;
    <option value="2018">2018</option>
    <option value="2019">2019</option>
    <option value="2020">2020</option>
  </select>
-</label>
-   </p>
+</p>
     
-<label for="Referrer">
- Where did you hear about me?<br />
+<p>Where did you hear about me?<br />
     <select name="where" size="3" multiple="multiple">
       <option value="Web">Web</option>
       <option value="Newspaper">Newspaper</option>
       <option value="Friends">Friends</option>
   </select>
-  </label>
-  </p>
+</p>
 
 <input type="submit" value="Send">
 </form>
