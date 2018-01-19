@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width">
+<title>PROG109 - Module 02: HTML Tables</title>
+</head>
+  <h1>PROG109 - Module 02: HTML Tables</h1>  
+  <h2>Instructor: Maricel Medina-Mora</h2>
+
+<table border="1" width="300" height="100">
