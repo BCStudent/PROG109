@@ -6,50 +6,68 @@
 <title>Chapter 07: Forms</title>
 </head>
 <body>
+ <h1>Website Contact Form</h1>
 <form action="thankyou.html" method="post">
-
-<p>Enter your name:
-  <input type="text" name="username" maxlength="30" />
-</p>
-  
-<p>Enter your password:
-  <input type="password" name="password" maxlength="10" />
-</p>
-
-<p>Tell us about you:
+ 
+<fieldset>
+ <legend>User Information</legend>
+<label for "name">
+ Enter your name:
+  <input type="text" name="name" maxlength="30">
+ </label>
+ <br />
+ 
+<label for "password">
+ Enter your password:
+  <input type="password" name="password" maxlength="10">
+</label>
+ <br />
+ 
+<label for "hear about">
+ Tell us about you:
+</label>
   <textarea name="comment" cols="20" rows="6"></textarea>
-</p>
-
-<p>Are you new to my site:
+   </fieldset>
+ <br />
+ 
+<label for "New visitor?">
+ Are you new to my site:
+</label>
   <input type="radio" name="new" value="Yes" />Yes
   <input type="radio" name="new" value="No" />No
-</p>
+<p>
 
-<p>Do you want to subscribe to my blog?
-  <input type="checkbox" name="new" value="Yes" />Yes
-  <input type="checkbox" name="new" value="No" />No
-</p>
-
-<p>What is youur student's year?
-  <select name="studentyear">
-    <option value="2018">2018</option>
-    <option value="2019">2019</option>
-    <option value="2020">2020</option>
+<label for "Subscribe to blog?">
+ Do you want to subscribe to my blog?
+</label>
+  <input type="checkbox" name="subscribe" checked="checked" />
+<p>
+ 
+<label for "student year">
+ What is your student's year?<br />
+  <select name="studentyear">    
+   <option value="Select one option..."> 
+   <option value="2018">2018</option>
+   <option value="2019">2019</option>
+   <option value="2020">2020</option>
    </select>
-   </p>
-
-<p>Where did you hear about me?
+ </label>
+   <p>
+    
+<label for "Referrer">
+ Where did you hear about me?
+</label>
     <select name="where" size="3" multiple="multiple">
-      <option value="web">web</option>
-      <option value="newspaper">newspaper</option>
-      <option value="friends">friends</option>
+      <option value="Web">Web</option>
+      <option value="Newspaper">Newspaper</option>
+      <option value="Friends">Friends</option>
   </select>
   </p>
 
 <input type="submit" value="Send">
 </form>
 
-<p><p>
+<p>
 <a href="/PROG109/MOD02/index.html">Go Back</a> | <a href="/PROG109/index.html">Go Home</a>
 
 </body>
