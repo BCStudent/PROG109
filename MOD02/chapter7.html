@@ -11,46 +11,46 @@
  
 <fieldset>
  <legend>User Information</legend>
-<p>Enter your name:<br />
+ <label for="name">Enter your name:</label><br />
  <input type="text" name="name" maxlength="30" />
-</p>
+ </label><br />
 
-<p>Enter your password:<br />
+ <label for="password">Enter your password:</label><br />
   <input type="password" name="password" maxlength="30" />
-</p>
+</label><br />
  
-<p>Tell us about you:<br />
+ <label for="aboutyou">Tell us about you:</label><br />
   <textarea name="comment" cols="20" rows="6"></textarea>
    </fieldset>
 <br />
  
-<p>Are you new to my site:
+<p>
+Are you new to my site:<br /> 
+ <label>
   <input type="radio" name="new" value="Yes" />Yes
   <input type="radio" name="new" value="No" />No
-</p>
+  </label><br />
  
-<p>Do you want to subscribe to my blog?
+<label>Do you want to subscribe to my blog?
   <input type="checkbox" name="subscribe" checked="checked" />
-</p>
+ </label><br />
  
-<p>What is your student's year?
-  <select name="studentyear">    
-   <option value="default">Select one option...</>
+<label for="studentyear">What is your student's year?</label>
+  <select name="studentyear" id="studentyear">    
+   <option value="selectone">Select one Option...</>
    <option value="2018">2018</option>
    <option value="2019">2019</option>
    <option value="2020">2020</option>
- </select>
-</p>
+</select><br />
     
-<p>Where did you hear about me?<br />
-    <select name="where" size="3" multiple="multiple">
+<label for="hearabout">Where did you hear about me?</label><br />
+    <select name="hearabout" s id='hearabout" size="3" multiple="multiple">
       <option value="Web">Web</option>
       <option value="Newspaper">Newspaper</option>
       <option value="Friends">Friends</option>
-  </select>
+  </select><br />
 </p>
-
-<input type="submit" value="Send">
+<input type="submit" value="Send" />
 </form>
 
 <p>
