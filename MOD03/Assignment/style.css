@@ -1,19 +1,19 @@
-body:  
+body{
 font-family: Helvetica, Arial, sans-serif;
 color: #665544;
-padding: 0 15% 0 15%;
-h1:
+  padding: 0 15% 0 15%}
 
+h1{
 text-align:center;
 color:blue;
 font-family:'DancingScriptRegular‘;
-font-size:400%;
-p:  
+  font-size:400%;}
 
+p{
 font-family: 'DancingScriptRegular';
 font-weight: normal;
 font-style: normal;
-font-size:200%;
-i:
+  font-size:200%;}
 
-color:darkgreen;
+i{
+  color:darkgreen;}
