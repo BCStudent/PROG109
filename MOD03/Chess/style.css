@@ -1,1 +1,23 @@
+.row{
+ position:relative;
+ margin-left:10%;
+ margin-right:10%;
+}
+.clear {
+clear:both;
+}
+.white, .black{
+ border: 1px solid black;
+ width: 10%;
+ height: 60px;
+ float:left;
+}
+ 
+.white [
+ background-color:white;
+}
 
+.black{
+ background-color:#787878;
+ float:left;
+}
