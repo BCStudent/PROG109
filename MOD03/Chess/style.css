@@ -13,11 +13,10 @@ clear:both;
  float:left;
 }
  
-.white [
+.white {
  background-color:white;
 }
 
 .black{
  background-color:#787878;
- float:left;
 }
