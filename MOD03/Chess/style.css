@@ -39,11 +39,11 @@ clear:both;
 }
 
 #container {
- display: flex;
- align-items: center;
- justify-content: center;
- height: 100vh;
-{
+ margin-top:20%;
+ margin-left:10%;
+ margin-right:10%;
+ margin-bottom:5%;
+}
  
 #title {
  position:fixed;
