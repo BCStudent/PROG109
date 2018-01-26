@@ -63,7 +63,7 @@ font-family: 'UniqueRegular';
 }
 
 img {
- margin-left: 5px;
- margin-top:5px;
+ display:block;
+ margi:auto;
  }
 
