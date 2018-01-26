@@ -10,8 +10,9 @@ body {
 .row{
  position:relative;
  margin-left:10%;
- margin-right:5%;
+ margin-right:0%;
 }
+
 .clear {
 clear:both;
 }
