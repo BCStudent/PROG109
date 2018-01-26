@@ -9,7 +9,7 @@ body {
 
 .row{
  position:relative;
-margin: 0 auto;
+margin: 0 auto 0 auto;
 }
 .clear {
 clear:both;
