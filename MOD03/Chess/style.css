@@ -40,10 +40,9 @@ clear:both;
 }
 
 #container {
- margin-top:20%;
- margin-left:10%;
- margin-right:10%;
- margin-bottom:5%;
+width: 600px;
+margin-left: 0%;
+margin-right: 0%;
 }
  
 #title {
