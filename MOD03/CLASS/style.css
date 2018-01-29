@@ -2,7 +2,7 @@
  height:100%;
 }
 
-#left, #right, {
+#left, #right{
 border-style:solid;
 border-width:1px;
 width:35%;
