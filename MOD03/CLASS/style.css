@@ -23,4 +23,7 @@ display:block;
  background-color:green;
 }
 
-
+footer{
+  text-align:center;
+  font-family: Helvetica, Arial, sans-serif;
+font-size:50%;}
