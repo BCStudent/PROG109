@@ -19,14 +19,14 @@ body {
 	background-position: bottom;}
 figure {
 	display: block;
-	width: 100%;
+	width: 25;
 	height: 170px;
 	background-color: #e7e3d8;
 	margin: 0;
 	padding: 9px;
 	text-align: left;}
 figure img {
-	width: 100%;
+	width: 25%;
 	height: 150px;
 	border: 1px solid #d6d6d6;}
 figcaption {
