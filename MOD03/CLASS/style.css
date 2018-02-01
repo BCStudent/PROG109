@@ -24,6 +24,7 @@ display:block;
 }
 
 #footer {
+ Float: bottom;
   text-align:center;
   font-family: Helvetica, Arial, sans-serif;
 font-size:75%;}
