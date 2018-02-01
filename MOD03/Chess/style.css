@@ -35,7 +35,7 @@ clear:both;
 #footer {
  background-color:beige;
  border:solid 1px;
- padding: 10px;
+ padding: 20px;
  margin: 0;
  text-align:center;
 }
@@ -44,7 +44,7 @@ clear:both;
  margin-top: 10%;
  margin-left:10%;
  margin-right:0%;
- margin-bottom:10%;
+ margin-bottom:5%;
 }
  
 #title {
