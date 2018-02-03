@@ -6,7 +6,7 @@
 body {
 	width: 90%;
 	margin: 0 auto;
-	background-image: url('images/mindfulness.jpg')}
+	}
 			
 #content {
 	overflow: auto;}
@@ -30,11 +30,24 @@ body {
 			padding: 0.5em;
 	background-color: lightblue}
 			
-#nav, #footer {
-	background-color: tan;
+#nav {
+background-color: lightgray;
+	padding: 0.5em 0;}	
+			
+#footer {
+	background-color: lightblue;
 	padding: 0.5em 0;}
 			
-#feature, .article {
+#feature {
+ background-color: white;
+background-image: url('images/mindfulness.jpg')
+ background-size:contain;
+ background-position: right;
+ background-repeat:no-repeat;}
+			
+			
+			
+#article {
 	height: 10em;
 	margin-bottom: 1em;
 	background-color: gray;}
