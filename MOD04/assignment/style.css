@@ -34,7 +34,7 @@ background-color: lightgray;
 			
 #feature {
  background-color: #8CC63E;
-background-image: url('images/mindfulness.jpg')
+background-image: url("images/mindfulness.jpg")
  background-size:contain;
  background-position: right;
  background-repeat:no-repeat;}
