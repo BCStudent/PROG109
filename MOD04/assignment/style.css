@@ -43,15 +43,17 @@ body {
 	background-color: lightblue;
 	padding: 0.5em 0;}
 			
-#feature {
- 	height: 10em;
-	margin-bottom: 1em;background-color: yellow;
+#feature, .article {
+	height: 10em;
+	margin-bottom: 1em;
+}
+ 	
+#feater {
+	background-color: yellow;
 	background-image: url("images/blue-ocean.jpg");
 	background-size:contain;
 	background-position: right;
  	background-repeat:no-repeat;}
 			
 #article {
-	height: 10em;
-	margin-bottom: 1em;
-	background-color: black;}
+	background-color: pink;}
