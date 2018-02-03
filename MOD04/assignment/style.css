@@ -1,6 +1,6 @@
 * {
-	font-family: Arial, Verdana, sans-serif;
-	color: #665544;
+	font-family: 'UniqueRegular';
+	color: black;
 	text-align: center;}
 
 body {
@@ -20,13 +20,14 @@ body {
 	margin-right: 0%;}
 		li {
 			display: inline;
-			padding: 0.5em;}
+			padding: 0.5em;
+	background-color: lightblue}
 			
 #nav, #footer {
-	background-color: #efefef;
+	background-color: #tan;
 	padding: 0.5em 0;}
 			
 #feature, .article {
 	height: 10em;
 	margin-bottom: 1em;
-	background-color: #efefef;}
+	background-color: gray;}
