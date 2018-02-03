@@ -17,6 +17,12 @@ body {
 	float: left;
 	margin: 1%;}
 
+#article column1{
+	margin-right: 0%;}
+		li {
+			display: inline;
+			padding: 0.5em;
+
 .column3 {
 	margin-right: 0%;}
 		li {
