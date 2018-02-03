@@ -5,7 +5,7 @@
 body {
 	width: 90%;
 	margin: 0 auto;}
-#content {
+#main {
 	overflow: auto;}
 #nav, #feature, #footer {
 	margin: 1%;}
