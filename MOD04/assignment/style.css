@@ -42,13 +42,10 @@ body {
 #footer {
 	background-color: lightblue;
 	padding: 0.5em 0;}
-			
-#feature, .article {
+ 	
+#feature {
 	height: 10em;
 	margin-bottom: 1em;
-}
- 	
-#feater {
 	background-color: yellow;
 	background-image: url("images/blue-ocean.jpg");
 	background-size:contain;
@@ -56,4 +53,6 @@ body {
  	background-repeat:no-repeat;}
 			
 #article {
+	height: 10em;
+	margin-bottom: 1em;
 	background-color: pink;}
