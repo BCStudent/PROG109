@@ -11,11 +11,13 @@ body {
 	}
 			
 #content {
-	color: black;overflow: auto;}
-	font-family: Arial, Verdana, sans-serif;
-	#nav, #feature, #footer {
+	overflow: auto;}
+	font-family: Arial, Verdana, sans-serif;}
+	
+#nav, #feature, #footer {
 	margin: 1%;}
-	.column1, .column2, .column3 {
+
+.column1, .column2, .column3 {
 	width: 31.3%;
 	float: left;
 	margin: 1%;}
@@ -27,14 +29,14 @@ body {
 	background-color: white}
 
 .column3{
+	background-color: purple;
 	margin-right: 0%;}
 		li {
 			display: inline;
-			padding: 0.5em;
-	background-color: purple}
+			padding: 0.5em;}	
 			
 #nav {
-background-color: lightgray;
+	background-color: lightgray;
 	font-family: Arial, Verdana, sans-serif;
 	padding: 0.5em 0;}	
 			
@@ -43,13 +45,12 @@ background-color: lightgray;
 	padding: 0.5em 0;}
 			
 #feature {
- background-color: blue;
-background-image: url("images/blue-ocean.jpg");
- background-size:contain;
- background-position: right;
- background-repeat:no-repeat;}
-			
-			
+ 	height: 10em;
+	margin-bottom: 1em;background-color: blue;
+	background-image: url("images/blue-ocean.jpg");
+	background-size:contain;
+	background-position: right;
+ 	background-repeat:no-repeat;}
 			
 #article {
 	height: 10em;
