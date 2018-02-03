@@ -28,7 +28,7 @@ body {
 	background-color: white}
 
 .column3{
-	background-color: purple;
+	background-color: blue;
 	margin-right: 0%;}
 		li {
 			display: inline;
@@ -44,7 +44,7 @@ body {
 			
 #feature {
  	height: 10em;
-	margin-bottom: 1em;background-color: blue;
+	margin-bottom: 1em;background-color: yellow;
 	background-image: url("images/blue-ocean.jpg");
 	background-size:contain;
 	background-position: right;
