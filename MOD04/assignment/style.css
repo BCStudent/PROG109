@@ -11,6 +11,7 @@ body {
 			
 #content {
 	font-family: Arial, Verdana, sans-serif;
+	text-align: center;}
 	color: black;overflow: auto;}
 	#nav, #feature, #footer {
 	margin: 1%;}
