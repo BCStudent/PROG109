@@ -1,6 +1,7 @@
 #header{
 	font-family: unique}
 *{
+	font-family: Arial, Verdana, sans-serif;}
 	color: black;
 	text-align: center;}
 
@@ -12,8 +13,7 @@ body {
 			
 #content {
 	overflow: auto;}
-	font-family: Arial, Verdana, sans-serif;}
-	
+		
 #nav, #feature, #footer {
 	margin: 1%;}
 
@@ -37,7 +37,6 @@ body {
 			
 #nav {
 	background-color: lightgray;
-	font-family: Arial, Verdana, sans-serif;
 	padding: 0.5em 0;}	
 			
 #footer {
