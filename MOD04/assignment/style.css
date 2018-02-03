@@ -20,12 +20,18 @@ body {
 	float: left;
 	margin: 1%;}
 
-.column3 {
+.column1{
+	background-color: red}
+
+.column2{
+	background-color: white}
+
+.column3{
 	margin-right: 0%;}
 		li {
 			display: inline;
 			padding: 0.5em;
-	background-color: lightblue}
+	background-color: blue}
 			
 #nav {
 background-color: lightgray;
