@@ -1,5 +1,5 @@
-* {
-	font-family: Arial, Verdana, sans-serif;
+*header {
+	font-family: unique;
 	color: black;
 	text-align: center;}
 
@@ -10,7 +10,8 @@ body {
 	}
 			
 #content {
-	overflow: auto;}
+	font-family: Arial, Verdana, sans-serif;
+	color: black;overflow: auto;}
 	#nav, #feature, #footer {
 	margin: 1%;}
 	.column1, .column2, .column3 {
