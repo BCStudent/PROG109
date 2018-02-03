@@ -10,9 +10,8 @@ body {
 	}
 			
 #content {
-	font-family: Arial, Verdana, sans-serif;
-	text-align: center;}
 	color: black;overflow: auto;}
+	font-family: Arial, Verdana, sans-serif;
 	#nav, #feature, #footer {
 	margin: 1%;}
 	.column1, .column2, .column3 {
@@ -37,7 +36,7 @@ background-color: lightgray;
 			
 #feature {
  background-color: #8CC63E;
-background-image: url("images/mindfulness.jpg");
+background-image: url("");
  background-size:contain;
  background-position: right;
  background-repeat:no-repeat;}
@@ -47,4 +46,4 @@ background-image: url("images/mindfulness.jpg");
 #article {
 	height: 10em;
 	margin-bottom: 1em;
-	background-color: gray;}
+	background-color: black;}
