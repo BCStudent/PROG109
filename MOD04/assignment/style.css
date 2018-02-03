@@ -6,7 +6,7 @@
 body {
 	width: 90%;
 	margin: 0 auto;
-	background-image: url("xxx.jpg")}
+	background-image: url("mindfulness.jpg ")}
 			
 #content {
 	overflow: auto;}
@@ -25,7 +25,7 @@ body {
 	background-color: lightblue}
 			
 #nav, #footer {
-	background-color: #tan;
+	background-color: tan;
 	padding: 0.5em 0;}
 			
 #feature, .article {
