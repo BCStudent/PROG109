@@ -7,10 +7,10 @@
 body {
 	width: 90%;
 	margin: 0 auto;
-	background-color: beige;
+	background-image: url("images/mindfulness.jpg");
 	}
 			
-#main {
+#content {
 	overflow: auto;}
 		
 #nav, #feature, #footer {
@@ -22,13 +22,13 @@ body {
 	margin: 1%;}
 
 .column1{
-	background-color: azure}
+	background-color: red}
 
 .column2{
-	background-color: beige}
+	background-color: white}
 
 .column3{
-	background-color: antiquewhite;
+	background-color: blue;
 	margin-right: 0%;}
 		li {
 			display: inline;
@@ -36,11 +36,11 @@ body {
 			
 #nav {
 	font-family: Arial, Verdana, sans-serif;
-	background-color: silver;
+	background-color: lightgray;
 	padding: 0.5em 0;}	
 			
 #footer {
-	background-color: whitesmoke;
+	background-color: lightblue;
 	padding: 0.5em 0;}
  	
 #feature, .article {
