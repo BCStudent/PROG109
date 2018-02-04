@@ -10,10 +10,10 @@ body {
 	background-image: url("images/mindfulness.jpg");
 	}
 			
-#main {
+#content {
 	overflow: auto;}
 		
-#nav, #section, #footer {
+#nav, #feature, #footer {
 	margin: 1%;}
 
 .column1, .column2, .column3 {
@@ -43,12 +43,11 @@ body {
 	background-color: lightblue;
 	padding: 0.5em 0;}
  	
-#section, .article {
+#feature, .article {
 	height: 10em;
-	margin-bottom: 1em;
-	background-cover: pink;}
+	margin-bottom: 1em;}
 
-#section {
+#feature {
 	background-color: yellow;
 	background-image: url("images/blue-ocean.jpg");
 	background-size:contain;
