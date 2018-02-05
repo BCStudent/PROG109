@@ -1,9 +1,19 @@
+header {
+  font-family: unique;}
+
 body {
   margin: 0;
   padding: 0;
   background: lightblue;
 }
- 
+
+div.wrapper{
+  width: 1000px;
+  height: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+}
 .nav ul {
   list-style: none;
   background-color: whiite;
