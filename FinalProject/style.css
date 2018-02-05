@@ -5,41 +5,24 @@
 	text-align: center;}
 
 body {
-	width: 100%;
+	width: 90%;
 	margin: 0 auto;
-	background-color: lightgray;
-}
-
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-}
-
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.topnav a.active {
-  background-color: #4CAF50;
-  color: white;
-}
+	background-image: url("images/mindfulness.jpg");
+	}
 			
 #section {
 	overflow: auto;}
 		
-#footer {
+#nav, #footer {
 	margin: 1%;}
 
+#nav {
+	font-family: Arial, Verdana, sans-serif;
+	background-color: lightgray;
+	padding: 0.5em 0;}	
+			
 #footer {
 	background-color: lightblue;
-	padding: 0.5em 0;} 
+	padding: 0.5em 0;}
+
+
