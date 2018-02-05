@@ -10,7 +10,10 @@ body {
 	margin: 0 auto;
 	background-color: silver;
 }
-
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
 nav, footer {
 margin: 1%;}
 
