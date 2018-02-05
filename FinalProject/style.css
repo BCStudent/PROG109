@@ -14,6 +14,7 @@ p {
     font-family: verdana;
     font-size: 16px;
 }
+
 nav, footer {
 margin: 1%;}
 
@@ -26,13 +27,12 @@ menu {
 nav {
 	font-family: Arial, Verdana, sans-serif;
 	background-color: lightgray;
-	padding: 0.5em 0;}	
+	padding: 0.5em 0;}
+	width: 86px;
+	height: inherit;
+	display: inlne-block;
+}
 			
-footer {
-	background-color: lightblue;
-padding: 0.5em 0;}
-
-
 /* Navbar links */
 menu a {
     float: left;
@@ -48,6 +48,10 @@ topnav a:hover {
     background-color: white;
     color: black;
 }
+footer {
+	background-color: lightblue;
+padding: 0.5em 0;}
+
 footer {
     background-color: beige;
     text-align: center;
