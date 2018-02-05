@@ -1,44 +1,31 @@
-header {
-  font-family: unique;}
-
-body {
-  margin: 0;
-  padding: 0;
-  background: lightblue;
+.header {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+}
+/* The navbar container */
+.menu {
+    overflow: hidden;
+    background-color: #333;
 }
 
-.wrapper{
-  width: 1000px;
-  height: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  border: 1px solid black;
+/* Navbar links */
+.menu a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
-.nav {
-  background-color: black;
-  width: 750px;
-  height: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  top: 3px;
-  border: 1px solid black;
+
+/* Links - change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
 }
- 
-.nav a.active {
-  background-color: #fff;
-  color: #444;
-  cursor: default;
-}
- 
-footer{
-  background-color: white;
-  height: 180px;
-  width: 752px;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  bottom: 8px;
-  z-index: 1;
-  color: pink
+.footer {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 10px;
 }
