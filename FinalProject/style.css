@@ -14,15 +14,17 @@ body {
 		
 #nav, #feature, #footer {
 	margin: 1%;
-	-moz-border-radius: 15px;
-	border-radius: 15px;
+	height: 65px;
+	width:160px;
+	-moz-border-radius: 25px 10px / 10px 25px;
+	border-radius: 25px 10px / 10px 25px;
 }
    
  			
 #nav {
 	font-family: Arial, Verdana, sans-serif;
 	background-color: black;
-    margin-right: 0%;}
+   	margin-right: 0%;}
 		li {
 			display: inline;
 			padding: 0.5em;}
