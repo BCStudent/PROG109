@@ -51,5 +51,6 @@ topnav a:hover {
 footer {
     background-color: red;
     text-align: center;
+    font-size: 50%;
     padding: 10px;
 }
