@@ -45,11 +45,11 @@ menu a {
 
 /* Links - change color on hover */
 topnav a:hover {
-    background-color: green;
+    background-color: white;
     color: black;
 }
 footer {
-    background-color: red;
+    background-color: beige;
     text-align: center;
     font-size: 50%;
     padding: 10px;
