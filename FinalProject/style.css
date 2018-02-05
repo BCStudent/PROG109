@@ -1,60 +1,45 @@
-header {
-    background-color: lightblue;
-    font-family: unique;	
-    text-align: center;
-    padding: 10px;
-}
+#header{
+	font-family: unique;}
 
 body {
-	width: 100%;
+	color: black;
+	text-align: center;
+    	width: 100%;
 	margin: 0 auto;
-	background-color: white;
-}
-p {
-    font-family: verdana;
-    font-size: 16px;
-}
-
-nav, footer {
-margin: 1%;}
-
-/* The navbar container */
-menu {
-    overflow: hidden;
-    background-color: purple;
-}
-
-nav {
-	font-family: Arial, Verdana, sans-serif;
-	background-color: lightgray;
-	padding: 0.5em 0;}
-	width: 86px;
-	height: inherit;
-	display: inlne-block;
+	background-image: url("images/mindfulness.jpg");
 }
 			
-/* Navbar links */
-menu a {
-    float: left;
-    display: block;
-    color: pink;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
+#content {
+	overflow: auto;}
+		
+#nav, #feature, #footer {
+	margin: 1%;}
+   
+ 			
+#nav {
+	font-family: Arial, Verdana, sans-serif;
+	background-color: black;
+    margin-right: 0%;}
+		li {
+			display: inline;
+			padding: 0.5em;}
 
-/* Links - change color on hover */
-topnav a:hover {
-    background-color: white;
-    color: black;
+li a:hover {
+    background-color: black;
+    color: white;
 }
-footer {
-	background-color: lightblue;
-padding: 0.5em 0;}
+			
+#footer {
+	background-color: blue;
+	padding: 0.5em 0;}
+ 	
 
-footer {
-    background-color: beige;
-    text-align: center;
-    font-size: 50%;
-    padding: 10px;
-}
+#feature {
+	text-align: left;
+   	font-size: 20px;
+    	height: 10em;
+	margin-bottom: 1em;
+   	background-color: violet;
+	background-size:contain;
+	background-position: right;
+ 	background-repeat:no-repeat;}
