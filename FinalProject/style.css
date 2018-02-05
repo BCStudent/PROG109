@@ -20,7 +20,7 @@ margin: 1%;}
 /* The navbar container */
 menu {
     overflow: hidden;
-    background-color: #333;
+    background-color: purple;
 }
 
 nav {
@@ -37,7 +37,7 @@ padding: 0.5em 0;}
 menu a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: pink;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -45,11 +45,11 @@ menu a {
 
 /* Links - change color on hover */
 topnav a:hover {
-    background-color: #ddd;
+    background-color: green;
     color: black;
 }
 footer {
-    background-color: #F1F1F1;
+    background-color: red;
     text-align: center;
     padding: 10px;
 }
