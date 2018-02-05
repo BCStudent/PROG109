@@ -1,32 +1,38 @@
-#header{
-	font-family: unique}
-*{
-	color: black;
-	text-align: center;}
-
 body {
-	width: 90%;
-	margin: 0 auto;
-	background-color: beige;
-	}
-			
-#section {
-	overflow: auto;}
-		
-#nav, #footer {
-	margin: 1%;}
-
-#nav {
-	font-family: Arial, Verdana, sans-serif;
-	background-color: lightgray;
-	padding: 0.5em 0;}	
-			
-#footer {
-	background-color: lightblue;
-	padding: 0.5em 0;}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  background: #ccc;
 }
+ 
+.nav ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  background-color: #005f5f;
+}
+ 
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+ 
