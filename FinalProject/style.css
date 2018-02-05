@@ -9,10 +9,10 @@ body {
 	background-color: beige;
 }
 			
-#content {
+content {
 	overflow: auto;}
 		
-#nav, #feature, #footer {
+nav, feature, footer {
 	margin: 1%;
 	height: 65px;
 	width:160px;
@@ -24,7 +24,7 @@ body {
 }
    
  			
-#nav {
+nav {
 	font-family: Arial, Verdana, sans-serif;
 	background-color: black;
    	margin-right: 0%;}
@@ -37,12 +37,12 @@ li a:hover {
     color: white;
 }
 			
-#footer {
+footer {
 	background-color: blue;
 	padding: 0.5em 0;}
  	
 
-#feature {
+feature {
 	text-align: left;
    	font-size: 20px;
     	height: 10em;
