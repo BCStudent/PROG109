@@ -7,7 +7,7 @@ body {
   background: lightblue;
 }
 
-wrapper{
+.wrapper{
   width: 1000px;
   height: 800px;
   margin-left: auto;
