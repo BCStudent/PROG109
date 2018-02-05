@@ -9,7 +9,7 @@ body {
 	background-color: beige;
 }
 			
-content {
+#content {
 	overflow: auto;}
 		
 #nav, #feature, #footer {
