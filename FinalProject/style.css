@@ -16,6 +16,8 @@ body {
 	margin: 1%;
 	height: 65px;
 	width:160px;
+	border-style: solid;
+	border-color: black;
 	-moz-border-radius: 25px 10px / 10px 25px;
 	border-radius: 25px 10px / 10px 25px;
 }
