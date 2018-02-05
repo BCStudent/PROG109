@@ -10,11 +10,25 @@ body {
 	margin: 0 auto;
 	background-color: silver;
 }
+
+#nav, #footer {
+margin: 1%;}
+
 /* The navbar container */
 .menu {
     overflow: hidden;
     background-color: #333;
 }
+
+#nav {
+	font-family: Arial, Verdana, sans-serif;
+	background-color: lightgray;
+	padding: 0.5em 0;}	
+			
+#footer {
+	background-color: lightblue;
+padding: 0.5em 0;}
+
 
 /* Navbar links */
 .menu a {
