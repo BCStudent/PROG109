@@ -21,8 +21,9 @@ li {
 	display: inline;
 	padding: 0.5em;}
 nav {
+	font-family: 'Impact, Charcoal, sans-serif'; 
 	text-align: center;
-	background-color: lightgray;
+	background-color: black;
 	padding: 0.5em 0;}
 
 footer {
