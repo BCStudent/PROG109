@@ -1,18 +1,18 @@
 * {
 	font-family: Arial, Verdana, sans-serif;
 	color: #665544;
-	text-align: center;}
+	text-align: left;}
 body {
 	width: 90%;
 	margin: 0 auto;
 	background-color: lightblue;}
 main {
 	overflow: auto;}
-h1{ 	background-color: #F4F6F6;
+h1{ 	background-color: red;
 	padding: 5px;  
 	margin-right:auto; 
 	margin-left:auto;
-   	font-family: 'RanchersRegular'; 
+   	font-family: 'Unique'; 
    	font-weight: normal; 
   	font-style: normal; }
 			
@@ -22,14 +22,14 @@ li {
 	display: inline;
 	padding: 0.5em;}
 nav {
-	background-color: #FADBD8;
+	background-color: lightgray;
 	padding: 0.5em 0;}
 
 footer {
-	background-color: #D2B4DE;
+	background-color: white;
 	padding: 0.5em 0;}
 
 section{margin-bottom: 1em;}
 
 section {
- background-color: #82E0AA;}
+ background-color: blue;}
