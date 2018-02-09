@@ -1,8 +1,9 @@
 #header{
-	font-family: unique}
+	font-family: unique;
+	text-align: center;}
 *{
 	color: black;
-	text-align: center;}
+}
 
 body {
 	font-family: Arial, Verdana, sans-serif;
