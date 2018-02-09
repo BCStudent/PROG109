@@ -20,6 +20,7 @@ h1, h3 {
 nav, section, footer {margin: 1%;}
 			
 li {
+	text-align: center;
 	display: inline;
 	padding: 0.5em;}
 nav {
