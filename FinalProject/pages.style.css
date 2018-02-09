@@ -1,11 +1,11 @@
 #header{
-	font-family: unique}
-*{
+	font-family: unique;
 	color: black;
 	text-align: center;}
 
 body {
 	font-family: Arial, Verdana, sans-serif;
+	color: black;
 	text-align: left;
 	width: 90%;
 	margin: 0 auto;
