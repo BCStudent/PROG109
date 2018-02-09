@@ -5,7 +5,8 @@
 	text-align: center;}
 
 body {
-	ont-family: Arial, Verdana, sans-serif;
+	font-family: Arial, Verdana, sans-serif;
+	text-align: left;
 	width: 90%;
 	margin: 0 auto;
 	background-color: lightblue;
