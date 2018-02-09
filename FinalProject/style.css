@@ -2,7 +2,7 @@ body {
 	font-family: Arial, sans-serif;
 	width: 100%;
 	margin: 0 auto;
-	background-color: lightblue;}
+	background-color: azure;}
 main {
 	overflow: auto;}
 h1, h3 { 
@@ -27,11 +27,11 @@ nav {
 	padding: 0.5em 0;}
 
 footer {
-	background-color: lightgray;
+	background-color: honeydew;
 	text-align: center;
 	padding: 0.5em 0;}
 
 section{margin-bottom: 1em;}
 
 section {
- background-color: violet;}
+ background-color: aliceblue ;}
