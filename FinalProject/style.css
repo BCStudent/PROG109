@@ -49,7 +49,6 @@ body {
 
 #feature {
 	background-color: yellow;
-	background-image: url("images/blue-ocean.jpg");
 	background-size:contain;
 	background-position: right;
  	background-repeat:no-repeat;}
