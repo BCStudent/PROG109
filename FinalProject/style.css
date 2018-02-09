@@ -2,7 +2,7 @@ body {
 	font-family: Arial, sans-serif;
 	width: 100%;
 	margin: 0 auto;
-	background-color: snow;}
+	background-color: whitesmoke;}
 main {
 	overflow: auto;}
 h1, h3 { 
@@ -23,15 +23,15 @@ li {
 nav {
 	font-family: Impact, Charcoal, sans-serif; 
 	text-align: center;
-	background-color: white;
+	background-color: skyblue;
 	padding: 0.5em 0;}
 
 footer {
-	background-color: honeydew;
+	background-color: seashell;
 	text-align: center;
 	padding: 0.5em 0;}
 
 section{margin-bottom: 1em;}
 
 section {
- background-color: palegreen;}
+ background-color: papayawhip;}
