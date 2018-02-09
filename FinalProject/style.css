@@ -1,6 +1,6 @@
 * {
 	font-family: Arial, Verdana, sans-serif;
-	color: #665544;
+	color: black;
 	text-align: left;}
 body {
 	width: 90%;
@@ -8,7 +8,7 @@ body {
 	background-color: lightblue;}
 main {
 	overflow: auto;}
-h1{ 	background-color: red;
+h1{ 	background-color: lightgray;
 	padding: 5px;  
 	margin-right:auto; 
 	margin-left:auto;
@@ -26,10 +26,10 @@ nav {
 	padding: 0.5em 0;}
 
 footer {
-	background-color: white;
+	background-color: lightgray;
 	padding: 0.5em 0;}
 
 section{margin-bottom: 1em;}
 
 section {
- background-color: blue;}
+ background-color: yellow;}
