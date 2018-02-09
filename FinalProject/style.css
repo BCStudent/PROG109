@@ -1,33 +1,35 @@
-header{
-	font-family: unique;
-	color: black;
-	text-align: center;
-	background-color: white}
-
-body {
+* {
 	font-family: Arial, Verdana, sans-serif;
-	color: black;
-	text-align: left;
+	color: #665544;
+	text-align: center;}
+body {
 	width: 90%;
 	margin: 0 auto;
-	background-color: violet;
-	}
-			
+	background-color: lightblue;}
 main {
 	overflow: auto;}
-		
-nav, section, footer {
-	margin: 1%;}
-
-	li {
-		display: inline;
-		padding: 0.5em;}	
+h1{ 	background-color: #F4F6F6;
+	padding: 5px;  
+	margin-right:auto; 
+	margin-left:auto;
+   	font-family: 'RanchersRegular'; 
+   	font-weight: normal; 
+  	font-style: normal; }
 			
+nav, section, footer {margin: 1%;}
+			
+li {
+	display: inline;
+	padding: 0.5em;}
 nav {
-	font-family: Arial, Verdana, sans-serif;
-	background-color: lightgray;
-	padding: 0.5em 0;}	
-			
+	background-color: #FADBD8;
+	padding: 0.5em 0;}
+
 footer {
-	background-color: lightblue;
-padding: 0.5em 0;}
+	background-color: #D2B4DE;
+	padding: 0.5em 0;}
+
+section{margin-bottom: 1em;}
+
+section {
+ background-color: #82E0AA;}
