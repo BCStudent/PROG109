@@ -23,6 +23,7 @@ li {
 	display: inline;
 	padding: 0.5em;}
 nav {
+	text-align: center;
 	background-color: lightgray;
 	padding: 0.5em 0;}
 
