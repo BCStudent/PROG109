@@ -1,7 +1,8 @@
-#header{
+header{
 	font-family: unique;
 	color: black;
-	text-align: center;}
+	text-align: center;
+	background-color: white}
 
 body {
 	font-family: Arial, Verdana, sans-serif;
@@ -9,37 +10,25 @@ body {
 	text-align: left;
 	width: 90%;
 	margin: 0 auto;
-	background-color: lightblue;
+	background-color: violet;
 	}
 			
-#content {
+main {
 	overflow: auto;}
 		
-#nav, #feature, #footer {
+nav, section, footer {
 	margin: 1%;}
 
 	li {
 		display: inline;
 		padding: 0.5em;}	
 			
-#nav {
+nav {
 	font-family: Arial, Verdana, sans-serif;
 	background-color: lightgray;
 	padding: 0.5em 0;}	
 			
-#footer {
+footer {
 	background-color: lightblue;
 	padding: 0.5em 0;}
  	
-#feature, .article {
-	height: 10em;
-	margin-bottom: 1em;}
-
-#feature {
-	background-color: yellow;
-	background-size:contain;
-	background-position: right;
- 	background-repeat:no-repeat;}
-			
-#article {
-background-color: pink;}
