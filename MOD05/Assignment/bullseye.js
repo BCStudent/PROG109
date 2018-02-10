@@ -1,3 +1,10 @@
+var person = prompt("Please Choose a Number:", "1"); 
+
+var table = person;             // Unit of table
+var operator = 'multiplication'; // Type of calculation
+var i = 1;                 // Set counter to 1
+var msg = '<h2>Multiplication Table</h2>';              // Message
+
 var table = 3;             // Unit of table
 var operator = 'addition'; // Type of calculation
 var i = 1;                 // Set counter to 1
