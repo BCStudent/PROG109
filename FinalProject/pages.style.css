@@ -1,34 +1,37 @@
-header{
-	font-family: unique;
-	color: black;
-	text-align: center;
-	background-color: white}
-
 body {
-	font-family: Arial, Verdana, sans-serif;
-	color: black;
-	text-align: left;
-	width: 90%;
+	font-family: Arial, sans-serif;
+	width: 100%;
 	margin: 0 auto;
-	background-color: violet;
-	}
-			
+	background-color: whitesmoke;}
 main {
 	overflow: auto;}
-		
-nav, section, footer {
-	margin: 1%;}
-
-	li {
-		display: inline;
-		padding: 0.5em;}	
+h1, h3 { 
+	text-align: left;
+	padding: 5px;  
+	margin-right:auto; 
+	margin-left:auto;
+   	font-family: 'unique'; 
+   	font-weight: bold; 
+  	font-style: normal; }
 			
+nav, section, footer {margin: 1%;}
+			
+li {
+	text-align: center;
+	display: inline;
+	padding: 0.5em;}
 nav {
-	font-family: Arial, Verdana, sans-serif;
-	background-color: lightgray;
-	padding: 0.5em 0;}	
-			
-footer {
-	background-color: lightblue;
+	font-family: Impact, Charcoal, sans-serif; 
+	text-align: center;
+	background-color: skyblue;
 	padding: 0.5em 0;}
- 	
+
+footer {
+	background-color: seashell;
+	text-align: center;
+	padding: 0.5em 0;}
+
+section{margin-bottom: 1em;}
+
+section {
+background-color: papayawhip;}
