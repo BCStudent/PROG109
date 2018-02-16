@@ -1,15 +1,15 @@
 body {
-  background-color: #FFE4E1;
+  background-color: lightblue;
 }
 
 p { 
-   font-family: 'TruenoRegular'; 
+   font-family: 'unique'; 
    font-weight: normal; 
    font-style: normal; 
 }
 
 label { 
-   font-family: 'TruenoRegular'; 
+   font-family: 'unique'; 
    font-weight: normal; 
    font-style: normal; 
 }
@@ -36,5 +36,5 @@ clear: both;
 }
 
 .space {
-  color:#FFE4E1;
+  color:tan;
 }
