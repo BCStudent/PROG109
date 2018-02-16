@@ -3,13 +3,13 @@ body {
 }
 
 p { 
-   font-family: 'Unique'; 
+   font-family: 'unique'; 
    font-weight: normal; 
    font-style: normal; 
 }
 
 label { 
-   font-family: 'Unique'; 
+   font-family: 'unique'; 
    font-weight: normal; 
    font-style: normal; 
 }
@@ -30,10 +30,11 @@ float: left;
 
 float: left;
 }
+
 .clear {
 clear: both;
 }
 
 .space {
-  color:#F5F5F5
+  color: red;
 }
