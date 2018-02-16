@@ -1,0 +1,40 @@
+body {
+  background-color: #FFE4E1;
+}
+
+p { 
+   font-family: 'TruenoRegular'; 
+   font-weight: normal; 
+   font-style: normal; 
+}
+
+label { 
+   font-family: 'TruenoRegular'; 
+   font-weight: normal; 
+   font-style: normal; 
+}
+
+#upLeft {
+float: left;
+
+}
+#downLeft {
+float: left;
+}
+#upRight {
+
+float: left;
+}
+
+#downRight {
+
+float: left;
+}
+
+.clear {
+clear: both;
+}
+
+.space {
+  color:#FFE4E1;
+}
