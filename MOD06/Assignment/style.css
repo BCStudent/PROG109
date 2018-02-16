@@ -1,3 +1,19 @@
+body {
+  background-color: lightblue;
+}
+
+p { 
+   font-family: 'Unique'; 
+   font-weight: normal; 
+   font-style: normal; 
+}
+
+label { 
+   font-family: 'Unique'; 
+   font-weight: normal; 
+   font-style: normal; 
+}
+
 #upLeft {
 float: left;
 
@@ -16,4 +32,8 @@ float: left;
 }
 .clear {
 clear: both;
+}
+
+.space {
+  color:#F5F5F5
 }
