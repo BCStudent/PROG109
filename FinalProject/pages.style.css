@@ -13,7 +13,7 @@ h1, h3 {
    	font-weight: bold; 
   	font-style: normal; }
 			
-nav, section, footer {margin: 1%;}
+nav, footer {margin: 1%;}
 			
 li {
 	text-align: center;
