@@ -1,12 +1,14 @@
 body {
 	background-color: lightblue;
 	color: black;
-	font-family: 'AlexBrushRegular';
+	font-family: Impact, Charcoal, sans-serif;
+	font
 	margin: 0px 0px 0px 0px;}
 h2 {text color: white;}
 p { 
-   font-weight: normal; 
-   font-style: normal; 
+  	font-family: alex-brush;
+   	font-weight: normal; 
+  	font-style: normal; 
 }
 
 footer {text-align: center}
