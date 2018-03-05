@@ -1,8 +1,10 @@
 function ValidateForm(){
-var validUsername = false;
-var validUserPassword = false;
 var validFirstName = false;
 var validLastName = false;
+var validEmail = false;
+var validPhoneNumber = false;
+var validUsername = false;
+var validUserPassword = false;
 var validPhone = false;
 var validAddress = false;
 var validCity = false;
