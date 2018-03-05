@@ -1,70 +1,75 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="description" content="Artifact #4 - Form Validation">
+<meta name="robots" content="noindex">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
-<title>Artifact #4</title>
 <link rel="stylesheet" type="text/css" href="form.css">
+<title>Artifact #4</title>
 </head>
-
+<script src="form.js"></script>
 <body>
 <h1>CONTACT US FORM</h1>
+
+
+<div id="errorMessages"></div>
 <!--Add the URL to your Thank you page -->
-<form action="thankyou.html" 
-      method="get" name="myContact" onsubmit="return ValidateForm(); ValidateEmail();">
+<form action="/thankyou.html" method="get" name="myContact" onsubmit="return ValidateForm();">
 <fieldset>
 <legend>User Information</legend>
-<label for="firstname">Firstname (Max 20 characters) </label>
+<label for="firstname">Enter Firstname (Max 20 characters) </label>
 <br>
 <input type="text" id="firstname">
 <br>
-<label for="lastname">Lastname (Max 50 characters) </label>
+<label for="lastname">Enter Lastname (Max 50 characters) </label>
 <br>
 <input type="text" id="lastname">
 <br>
-<label for="email">Email</label>
+<label for="email">Enter Email</label>
 <br>
 <input type="text" id="email">
 <br>
-<label for="phone">Phone Number (Max 15 Characters) </label>
+<label for="phone">Enter Phone Number (Max 15 Characters) </label>
 <br>
 <input type="text" id="phone">
 <br>
-<label for="username">Username (Max 12 Characters)</label>
+<label for="username">Enter Username (Max 12 Characters)</label>
 <br>
 <input type="text" maxlength="12" id="username">
 <br>
-<label for="password">Password (Max 7 Characters)</label>
+<label for="password">Enter Password (Max 7 Characters)</label>
 <br>
 <input type="password" maxlength="7" id="password">
 
 </fieldset>
 <fieldset>
 <legend>Current Address</legend>
-<label for="address">Mailing Address</label>
+<label for="address">Enter Address</label>
 <br>
 <input type="text" name="address" id="address" size="50">
 <br>
-<label for="city">City</label>
+<label for="city">Enter City</label>
 <br>
 <input type="text" name="city" id="city">
 <br>
 <label for="countries">Choose Country</label>
 <br>
 <select id="countries">
-<option>USA</option>
+
+<option></option>
 <option>Canada</option>
 <option>Mexico</option>
+<option>USA</option>
+<option>Other</option>
 </select>
 <br>
-<label for="zipcode">Zipcode</label>
+<label for="zipcode">Enter zip code</label>
 <br>
 <input type="text" name="zip" id="zipcode">
 </fieldset>
 
 <fieldset>
-<legend>Comments</legend>
+<legend>Feel free to add comments</legend>
 <textarea name="commentbox" id="commentbox" rows="4" cols="50"></textarea>
 </fieldset>
 
@@ -72,8 +77,7 @@
 <input id="submit" type="submit" value="Submit">
 <input id="cancel" type="submit" value="Cancel">
 </form>
-      
-<script src="form.js"></script>
+
 <footer>
 <br>
 <a href="https://jigsaw.w3.org/css-validator/check/referer">
@@ -83,7 +87,6 @@
 <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" />
 </a>
 </footer>
-
 </body>
 
 </html>
