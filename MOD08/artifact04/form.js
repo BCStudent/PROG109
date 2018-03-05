@@ -109,7 +109,7 @@ validEmail = true;
 
  document.getElementById("errorMessages").innerHTML = errorMessages;
 // Make sure you return all the boolean variables that are checking each field
- return (validUsername && validUserPassword && validFirstName && validPhone && validAddress && validCity && validCountries && validZipCode && validEmail) ;
+ return (validFirstName && validLastName  && validEmail  && validPhoneNumber && validUsername && validUserPassword && validAddress && validCity && validCountries && validZipCode) ;
 }
 
 function validateEmail() {
