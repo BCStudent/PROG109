@@ -21,7 +21,46 @@ var validEmail = false;
 //This syntax is using name-of-form.name-of-field.value
 // You can also use document.getElementById("id-of-field").value
 
-/*********** VALIDATES USERNAME ******** */
+ /*********** VALIDATES FIRSTNAME ******** */
+ if (myContact.firstname.value==null ||
+ myContact.firstname.value=== "" ||
+ myContact.firstname.value.length >20 || !myContact.firstname.value.match(letters))
+ errorMessages += "<p>The first name must be less than 20 characters and it is required. Only letters and numbers are accepted.</p>";
+ else
+ validFirstName = true; 
+ 
+   /*********** VALIDATES LASTNAME ******** */
+ if (myContact.lastname.value==null ||
+ myContact.lastname.value=== "" ||
+ myContact.lastname.value.length >50 || !myContact.lastname.value.match(letters))
+ errorMessages += "<p>The last name must be less than 50 characters and it is required. Only letters and numbers are accepted.</p>";
+ else
+ validLastName = true;
+ 
+   /*********** VALIDATES EMAIL ******** */
+if (myContact.email.value == null ||
+myContact.email.value === "" ||
+myContact.email.value.length > 50) {
+var x = myContact.email.value;
+var atpos = x.indexOf("@");
+var dotpos = x.lastIndexOf(".");
+if (atpos < 1 || dotpos < atpos + 2 || dotpos + 2 >= x.length)
+errorMessages += "<p>A valid email address is required.</p>";
+else
+validEmail = true;
+} 
+else
+validEmail = true; 
+ 
+   /*********** VALIDATES PHONE NUMBER ******** */
+ if (myContact.phone.value==null ||
+ myContact.phone.value=== "" ||
+ myContact.phone.value.length >15 || !myContact.phone.value.match(numbers))
+ errorMessages += "<p>The phone number must be less than 15 characters and it is required. Only numbers are accepted.</p>";
+ else
+ validPhone = true; 
+ 
+ /*********** VALIDATES USERNAME ******** */
         //Required. Maximum 12 characters.
  if (myContact.username.value.length > 12 || myContact.username.value===null || myContact.username.value==="")
  errorMessages += "<p>The username must be less than 12 characters and it is required.</p>";
@@ -38,29 +77,6 @@ var validEmail = false;
  else
  validUserPassword = true; 
  
-  /*********** VALIDATES FIRSTNAME ******** */
- if (myContact.firstname.value==null ||
- myContact.firstname.value=== "" ||
- myContact.firstname.value.length >20 || !myContact.firstname.value.match(letters))
- errorMessages += "<p>The first name must be less than 20 characters and it is required. Only letters and numbers are accepted.</p>";
- else
- validFirstName = true; 
- 
-   /*********** VALIDATES LASTNAME ******** */
- if (myContact.lastname.value==null ||
- myContact.lastname.value=== "" ||
- myContact.lastname.value.length >50 || !myContact.lastname.value.match(letters))
- errorMessages += "<p>The last name must be less than 50 characters and it is required. Only letters and numbers are accepted.</p>";
- else
- validLastName = true;
- 
-   /*********** VALIDATES PHONE NUMBER ******** */
- if (myContact.phone.value==null ||
- myContact.phone.value=== "" ||
- myContact.phone.value.length >15 || !myContact.phone.value.match(numbers))
- errorMessages += "<p>The phone number must be less than 15 characters and it is required. Only numbers are accepted.</p>";
- else
- validPhone = true; 
 
    /*********** VALIDATES ADDRESS ******** */
  if (myContact.address.value==null ||
@@ -92,20 +108,7 @@ var validEmail = false;
  else
  validZipCode = true;
   
-    /*********** VALIDATES EMAIL ******** */
-if (myContact.email.value == null ||
-myContact.email.value === "" ||
-myContact.email.value.length > 50) {
-var x = myContact.email.value;
-var atpos = x.indexOf("@");
-var dotpos = x.lastIndexOf(".");
-if (atpos < 1 || dotpos < atpos + 2 || dotpos + 2 >= x.length)
-errorMessages += "<p>A valid email address is required.</p>";
-else
-validEmail = true;
-} 
-else
-validEmail = true;
+
 
  document.getElementById("errorMessages").innerHTML = errorMessages;
 // Make sure you return all the boolean variables that are checking each field
