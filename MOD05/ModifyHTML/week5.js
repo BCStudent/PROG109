@@ -12,4 +12,11 @@ if (hourNow > 18) {
     greeting = 'Welcome!';
 }
 
+// Message //
+var message;
+alert('Welcome User!');
+var firstname=prompt('What is your first name?');
+var lastname=prompt('What is your last name?');
+message = firstname + " " + lastname;
+
 document.write('<h3>' + greeting + '</h3>');
