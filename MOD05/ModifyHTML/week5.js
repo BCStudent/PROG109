@@ -1,22 +1,15 @@
-var table = 3;             // Unit of table
-var operator = 'addition'; // Type of calculation
-var i = 1;                 // Set counter to 1
-var msg = '';              // Message
+var today = new Date();
+var hourNow = today.getHours();
+var greeting;
 
-if (operator === 'addition') {
-  // Do addition
-  while (i < 11) {
-    msg += i + ' + ' + table + ' = ' + (i + table) + '<br />';
-    i++;
-  }
+if (hourNow > 18) {
+    greeting = 'Good evening!';
+} else if (hourNow > 12) {
+    greeting = 'Good afternoon!';
+} else if (hourNow > 0) {
+    greeting = 'Good morning!';
 } else {
-  // Do multiplication
-  while (i < 11) {
-    msg += i + ' x ' + table + ' = ' + (i * table) + '<br />';
-    i++;
-  }
+    greeting = 'Welcome!';
 }
 
-// Write the message into the page
-var el = document.getElementById('blackboard');
-el.innerHTML = msg;
+document.write('<h3>' + greeting + '</h3>');
