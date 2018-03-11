@@ -1,8 +1,8 @@
 var myImages =["images/boulders.jpg", "images/helen-keller_beautiful-things.jpg", "images/rocks.jpg", 
-               "images/spaceneedle.jpg", "images/treesofmystery.jpg"];
+               "images/cat.jpg", "images/treesofmystery.jpg"];
 
 
-var captionImages =["Solid","Spirtual","Serene","Uplifting","Calm"];
+var captionImages =["Solid","Spirtual","Serene","Intense","Calm"];
 
  var index=0; 
 
