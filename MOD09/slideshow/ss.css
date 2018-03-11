@@ -1,0 +1,19 @@
+  body {
+    height: 200px;
+    background: #99738e;
+  }
+
+  body, a, p, function, h1 { 
+   font-family: 'ariel'; 
+   font-weight: normal; 
+   font-style: normal; 
+   color: white;
+}
+
+img {
+  border: 5px dotted white;
+}
+
+a:hover { 
+    color: #FCF3CF;
+}
