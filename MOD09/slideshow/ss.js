@@ -1,4 +1,5 @@
-var myImages =["src=boulders.jpg", "src=helen-keller_beautiful-things.jpg", "src=rocks.jpg", "src=spaceneedle.jpg", "src=treesofmystery,jpg"];
+var myImages =["images/boulders.jpg", "images/helen-keller_beautiful-things.jpg", "images/rocks.jpg", 
+               "images/spaceneedle.jpg", "images/treesofmystery,jpg"];
 
 
 var captionImages =["Solid","Spirtual","Serene","Uplifting","Calm"];
