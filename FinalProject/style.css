@@ -26,7 +26,16 @@ nav {
 	background-color: skyblue;
 	padding: 0.5em 0;}
 
+img  {
+    float: right;
+}
+
+iframe style {
+	float:left;
+}
+
 footer {
+	   clear: both;
 	background-color: seashell;
 	text-align: center;
 	padding: 0.5em 0;}
@@ -35,11 +44,3 @@ section{margin-bottom: 1em;}
 
 section {
  background-color: papayawhip;}
-
-img  {
-    float: right;
-}
-
-iframe style {
-	float:left;
-}
