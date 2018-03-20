@@ -35,3 +35,11 @@ section{margin-bottom: 1em;}
 
 section {
  background-color: papayawhip;}
+
+img  {
+    float: right;
+}
+
+iframe style {
+	float:left;
+}
