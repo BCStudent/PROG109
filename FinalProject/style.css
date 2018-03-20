@@ -34,8 +34,10 @@ iframe style {
 	float:left;
 }
 
+#footer {
+   clear: both;
+}
 footer {
-	   clear: both;
 	background-color: seashell;
 	text-align: center;
 	padding: 0.5em 0;}
