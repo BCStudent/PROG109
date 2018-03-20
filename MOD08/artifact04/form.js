@@ -101,12 +101,17 @@ validEmail = true;
  validCountries = true; 
  
     /*********** VALIDATES ZIP CODE ******** */
- if (myContact.countries.value=== "USA" &&
- 
- myContact.zipcode.value.length !=5 && !myContact.zipcode.value.match(numbers))
- errorMessages += "<p>The zip code must be 5 characters and it is required. Only numbers are accepted.</p>";
- else
- validZipCode = true;
+if (myContact.countries.value==='usa')
+
+if myContact.zipcode.value===null ||
+myContact.zipcode.value=== "" ||
+myContact.zipcode.value.length >5 ||
+!myContact.zipcode.value.match(numbers))
+errorMessages += "<p>The zipcode cannot exceed 5 numbers and is required for United States</p>";
+else
+validzipcode = true;
+else
+validzipcode =true;
   
 
 
